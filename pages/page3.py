@@ -1,0 +1,9 @@
+"""
+Exampe from
+https://msaqib-genai.medium.com/how-to-create-a-multi-page-aoo-in-streamlit-7f788e715db4
+"""
+
+import streamlit as st
+
+st.title("Settings")
+st.write("This page allows you to customize preferences.")
