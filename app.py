@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import streamlit as st
 
 pages = [
@@ -13,4 +14,3 @@ pg = st.navigation(
 )
 
 pg.run()
-
