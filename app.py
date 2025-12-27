@@ -6,10 +6,7 @@ pages = [
     st.Page(page="pages/page3.py", title="Penutup", icon="📑")
 ]
 
-pg = st.navigation(
-    pages,
-    position="sidebar",
-    expanded=True
-)
+st.write("Gunakan menu di sidebar untuk berpindah halaman.")
+
 
 pg.run()
